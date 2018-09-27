@@ -2,7 +2,7 @@ class WithholdingTaxCalculator
   # Calculate your Withholding Tax!
   #
   # Example:
-  #     >> WithholdingTaxCalculator.new(payroll_period: "daily", 9000).call
+  #     >> WithholdingTaxCalculator.new(payroll_period: "daily", compensation_level: 9000).call
   #     => 2469.19
   #
   # Arguments

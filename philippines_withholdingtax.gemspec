@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'philippines_withholdingtax'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.date        = '2018-09-27'
   s.summary     = "Withholding Tax calculator as specified by BIR"
   s.description = "Calculates withholding tax from given compensation level. Effective January 1, 2018 to December 31, 2022"

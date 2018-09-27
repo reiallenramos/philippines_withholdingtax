@@ -15,24 +15,24 @@ gem 'philippines_withholdingtax', github: 'reiallenramos/philippines_withholding
 
 #### Daily
 ```console
-WithholdingTaxCalculator.new(payroll_period: "daily", 9000).call
+WithholdingTaxCalculator.new(payroll_period: "daily", compensation_level: 9000).call
 => 2469.19
 ```
 
 #### Weekly
 ```console
-WithholdingTaxCalculator.new(payroll_period: "weekly", 1000000).call
+WithholdingTaxCalculator.new(payroll_period: "weekly", compensation_level: 1000000).call
 => 342500.05
 ```
 
 #### Semimonthly
 ```console
-WithholdingTaxCalculator.new(payroll_period: "semimonthly", 25000.2).call
+WithholdingTaxCalculator.new(payroll_period: "semimonthly", compensation_level: 25000.2).call
 => 3333.3
 ```
 
 #### Monthly
 ```console
-WithholdingTaxCalculator.new(payroll_period: "monthly", 1234567.89).call
+WithholdingTaxCalculator.new(payroll_period: "monthly", compensation_level: 1234567.89).call
 => 399598.6414999999
 ```
