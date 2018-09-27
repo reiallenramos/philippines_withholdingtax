@@ -8,7 +8,7 @@ Based on 2017 Revenue Memorandum Circular No. 105-2017
 Add to your Gemfile:
 
 ```ruby
-gem 'philippines_withholdingtax'
+gem 'philippines_withholdingtax', github: 'reiallenramos/philippines_withholdingtax'
 ```
 
 ### Examples:
